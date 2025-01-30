@@ -16,6 +16,18 @@ public class DriverGetMethods {
         // Aktif olan urlyi bize yazar
         System.out.println(driver.getCurrentUrl());
 
-        System.out.println(driver.getTitle()); // Sayfanın başlığını getirir.
+        // Sayfanın başlığını getirir.
+        System.out.println(driver.getTitle());
+
+        // Sayfanın bütün HTML Kodunu getirir.
+        System.out.println(driver.getPageSource());
+
+        // Tarayıcıda açık olan sekmenin unique değerini bize verir. Her açılıp kapandığında farklı değerler döner
+        System.out.println(driver.getWindowHandle());
+
+        // Driver'ın hangi class'da olduğunu bize döner (org.openqa.selenium.chrome.ChromeDriver)
+        System.out.println(driver.getClass());
+
+
     }
 }
