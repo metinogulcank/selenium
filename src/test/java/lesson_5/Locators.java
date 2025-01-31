@@ -34,7 +34,7 @@ public class Locators {
 
         By searchBoxPartialLink = By.partialLinkText("Forgotten Pass"); // linkTextten farklı olarak sadece bir kısmını yazmamız yeterlidir.
         WebElement searchBoxPartialLinkElement = driver.findElement(searchBoxPartialLink);
-        WebElement searchBoxPartialLinkElement2 = driver.findElement(By.partialLinkText("Forgotten Pass");
+        WebElement searchBoxPartialLinkElement2 = driver.findElement(By.partialLinkText("Forgotten Pass"));
 
         By searchBoxTagName = By.tagName("input"); // Tag'ı input olan değerleri seçer. Birden çok değer döndürür.
         WebElement searchBoxTagNameElement = driver.findElement(searchBoxTagName);
